@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "banner": "Bienvenido a House of Holmes - Diseño de Interiores de Lujo",
+  "header": {
+    "title": "Casa de Holmes",
+    "subtitle": "Interiores de lujo para la vida moderna"
+  },
+  "services": {
+    "title": "Lo que hacemos",
+    "service1": {
+      "title": "Desarrollo de Producto",
+      "desc": "Nuestro equipo técnico puede llevar tus ideas del concepto a la realidad con habilidades de patronaje, gradación e ingeniería. Tú lo piensas, nosotros lo creamos.",
+      "aria": "Icono de Desarrollo de Producto"
+    },
+    "service2": {
+      "title": "Confección de Muestras",
+      "desc": "Servicios de confección de muestras para ropa deportiva, de noche, sastrería, etc. Nos encargamos de la preproducción y la costura personalizada.",
+      "aria": "Icono de Confección de Muestras"
+    },
+    "service3": {
+      "title": "Diseño Técnico",
+      "desc": "Producimos paquetes de diseño técnico completos para que tu producto se mantenga consistente y de calidad a nivel global.",
+      "aria": "Icono de Diseño Técnico"
+    },
+    "service4": {
+      "title": "Producción",
+      "desc": "Desde marcas establecidas hasta pequeños diseñadores, entregamos producción 100% Hecho en USA con estrictos controles de calidad.",
+      "aria": "Icono de Producción"
+    }
+  },
+  "reviews": {
+    "title": "Opiniones de clientes"
+  },
+  "about": {
+    "title": "Sobre nosotros"
+  },
+  "consultation": {
+    "title": "Reservar una consulta"
+  },
+  "contact": {
+    "title": "Contáctanos"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados. Casa de Holmes © 2024"
+  },
+  "language": "Idioma"
+}

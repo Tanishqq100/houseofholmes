@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "banner": "Welcome to House of Holmes - Luxury Interior Design",
+  "header": {
+    "title": "House of Holmes",
+    "subtitle": "Luxury Interiors for Modern Living"
+  },
+  "services": {
+    "title": "What We Do",
+    "service1": "Interior Design",
+    "service2": "Space Planning",
+    "service3": "Furniture Selection",
+    "service4": "Lighting Design"
+  },
+  "reviews": {
+    "title": "Client Reviews"
+  },
+  "about": {
+    "title": "About Us"
+  },
+  "consultation": {
+    "title": "Book a Consultation"
+  },
+  "contact": {
+    "title": "Contact Us"
+  },
+  "footer": {
+    "rights": "All rights reserved. House of Holmes © 2024"
+  },
+  "language": "Language"
+}
+
+
+

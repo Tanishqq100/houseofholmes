@@ -1,0 +1,1 @@
+// Removed the entire Hero.js file content as per user request. 

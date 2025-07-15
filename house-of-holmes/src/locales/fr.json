@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "contact": "Contact"
+  },
+  "banner": "Bienvenue chez House of Holmes - Design d'intérieur de luxe",
+  "header": {
+    "title": "Maison de Holmes",
+    "subtitle": "Intérieurs de luxe pour la vie moderne"
+  },
+  "services": {
+    "title": "Ce que nous faisons",
+    "service1": {
+      "title": "Développement de produit",
+      "desc": "Notre équipe technique peut transformer vos idées en réalité grâce à des compétences en modélisme, gradation et ingénierie. Vous l'imaginez, nous le créons.",
+      "aria": "Icône Développement de produit"
+    },
+    "service2": {
+      "title": "Réalisation d'échantillons",
+      "desc": "Services de réalisation d'échantillons pour vêtements de sport, de soirée, tailleur, etc. Nous gérons la préproduction et la couture sur mesure.",
+      "aria": "Icône Réalisation d'échantillons"
+    },
+    "service3": {
+      "title": "Conception technique",
+      "desc": "Nous produisons des dossiers techniques complets pour garantir la cohérence et la qualité de votre produit à l'échelle mondiale.",
+      "aria": "Icône Conception technique"
+    },
+    "service4": {
+      "title": "Production",
+      "desc": "Des marques établies aux petits créateurs, nous assurons une production 100% Made in USA avec des contrôles qualité stricts.",
+      "aria": "Icône Production"
+    }
+  },
+  "reviews": {
+    "title": "Avis des clients"
+  },
+  "about": {
+    "title": "À propos de nous"
+  },
+  "consultation": {
+    "title": "Prendre rendez-vous"
+  },
+  "contact": {
+    "title": "Contactez-nous"
+  },
+  "footer": {
+    "rights": "Tous droits réservés. Maison de Holmes © 2024"
+  },
+  "language": "Langue"
+}

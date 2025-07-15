@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "pricing": "Prezzi",
+    "contact": "Contatto"
+  },
+  "banner": "Benvenuto a House of Holmes - Interior Design di Lusso",
+  "header": {
+    "title": "Casa di Holmes",
+    "subtitle": "Interni di lusso per la vita moderna"
+  },
+  "services": {
+    "title": "Cosa facciamo",
+    "service1": {
+      "title": "Sviluppo del Prodotto",
+      "desc": "Il nostro team tecnico può trasformare le tue idee in realtà con competenze di modellistica, gradazione e ingegneria. Tu lo pensi, noi lo creiamo.",
+      "aria": "Icona Sviluppo del Prodotto"
+    },
+    "service2": {
+      "title": "Realizzazione Campioni",
+      "desc": "Servizi di realizzazione campioni per abbigliamento sportivo, da sera, sartoriale, ecc. Gestiamo la pre-produzione e la sartoria su misura.",
+      "aria": "Icona Realizzazione Campioni"
+    },
+    "service3": {
+      "title": "Progettazione Tecnica",
+      "desc": "Produciamo pacchetti di progettazione tecnica completi affinché il tuo prodotto rimanga coerente e di qualità a livello globale.",
+      "aria": "Icona Progettazione Tecnica"
+    },
+    "service4": {
+      "title": "Produzione",
+      "desc": "Dai marchi affermati ai piccoli designer, offriamo produzione 100% Made in USA con rigorosi controlli di qualità.",
+      "aria": "Icona Produzione"
+    }
+  },
+  "reviews": {
+    "title": "Recensioni dei clienti"
+  },
+  "about": {
+    "title": "Chi siamo"
+  },
+  "consultation": {
+    "title": "Prenota una consulenza"
+  },
+  "contact": {
+    "title": "Contattaci"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati. Casa di Holmes © 2024"
+  },
+  "language": "Lingua"
+}

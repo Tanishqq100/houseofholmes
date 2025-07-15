@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "banner": "Welcome to House of Holmes - Luxury Interior Design",
+  "header": {
+    "title": "House of Holmes",
+    "subtitle": "Luxury Interiors for Modern Living"
+  },
+  "services": {
+    "title": "What We Do",
+    "service1": {
+      "title": "Product Development",
+      "desc": "Our technical team can take your ideas from concept to reality with patternmaking, grading, and engineering skills. You think it, we create it.",
+      "aria": "Product Development Icon"
+    },
+    "service2": {
+      "title": "Sample Making",
+      "desc": "Sample making services for sportswear, athletic wear, evening, tailoring, etc. We handle pre-production to custom sewing.",
+      "aria": "Sample Making Icon"
+    },
+    "service3": {
+      "title": "Technical Design",
+      "desc": "We produce comprehensive technical design packages so your product remains consistent and quality-driven globally.",
+      "aria": "Technical Design Icon"
+    },
+    "service4": {
+      "title": "Production",
+      "desc": "From established brands to small designers, we deliver 100% Made in USA production with strict quality control processes.",
+      "aria": "Production Icon"
+    }
+  },
+  "reviews": {
+    "title": "Client Reviews"
+  },
+  "about": {
+    "title": "About Us",
+    "p1": "House of Holmes is a premier fashion atelier blending timeless craftsmanship with modern design. Our collections reflect our commitment to excellence and the finest details, empowering clients with elegance.",
+    "p2": "We take pride in our dedication to quality and craftsmanship, ensuring that every piece that leaves our atelier meets the highest standards of excellence. Our team of skilled artisans and designers brings years of experience and passion to every project.",
+    "p3": "Located in Mesa, Arizona, we serve clients nationwide who share our vision for exceptional fashion and impeccable attention to detail. Our commitment to 100% Made in USA manufacturing ensures both quality control and support for local craftsmanship."
+  },
+  "consultation": {
+    "title": "Book a Consultation"
+  },
+  "contact": {
+    "title": "Contact Us"
+  },
+  "footer": {
+    "rights": "All rights reserved. House of Holmes © 2024"
+  },
+  "language": "Language"
+}
