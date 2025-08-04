@@ -1,0 +1,483 @@
+.mission-values {
+  background: var(--white);
+  padding: 6rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: var(--black);
+}
+
+.mv-header {
+  text-align: center;
+  margin-bottom: 5rem;
+  position: relative;
+  padding: 3rem 0;
+  background: var(--grey-light);
+  border-radius: 12px;
+  border: 1px solid var(--grey-medium);
+}
+
+.mv-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+  border: 3px solid var(--black);
+  box-shadow: 0 8px 24px var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.mv-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px var(--shadow);
+}
+
+.mv-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--black);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-shadow: 0 2px 4px var(--shadow);
+}
+
+.mv-back-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.mv-back-home:hover {
+  background: var(--grey-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+.mv-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin: 4rem 0 2rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.mv-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--black);
+  border-radius: 2px;
+}
+
+.mv-mission {
+  background: linear-gradient(135deg, var(--grey-light) 0%, var(--white) 100%);
+  border: 2px solid var(--grey-medium);
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  box-shadow: 0 8px 24px var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.mv-mission::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 2rem;
+  font-size: 6rem;
+  color: var(--grey-medium);
+  font-family: serif;
+  line-height: 1;
+}
+
+.mv-mission p {
+  color: var(--black);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.mv-vision {
+  background: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  box-shadow: 0 8px 24px var(--shadow);
+  position: relative;
+}
+
+.mv-vision::before {
+  content: '🎯';
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  background: var(--white);
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+}
+
+.mv-vision p {
+  color: var(--black);
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.mv-divider {
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, var(--black) 50%, transparent 100%);
+  margin: 4rem auto;
+  max-width: 300px;
+  border-radius: 2px;
+}
+
+.mv-motto {
+  background: var(--grey-light);
+  border: 2px solid var(--grey-medium);
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.mv-motto h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.mv-motto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mv-motto li {
+  color: var(--black);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem 1rem 3rem;
+  position: relative;
+  text-align: left;
+  background: var(--white);
+  border-radius: 8px;
+  border: 1px solid var(--grey-medium);
+  transition: all 0.3s ease;
+}
+
+.mv-motto li:hover {
+  transform: translateX(5px);
+  border-color: var(--black);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.mv-motto li:before {
+  content: "⚡";
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+}
+
+.mv-values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.mv-value {
+  background: var(--white);
+  border: 2px solid var(--grey-medium);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.mv-value::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--black);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.mv-value:hover {
+  border-color: var(--black);
+  box-shadow: 0 12px 32px var(--shadow);
+  transform: translateY(-8px);
+}
+
+.mv-value:hover::before {
+  transform: scaleX(1);
+}
+
+.mv-value h3 {
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+
+.mv-value h3::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: var(--black);
+  border-radius: 1px;
+}
+
+.mv-value p {
+  color: var(--black);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* Dark Mode */
+.dark-mode .mission-values {
+  background: var(--white);
+  color: var(--black);
+}
+
+.dark-mode .mv-header {
+  background: var(--grey-light);
+  border-color: var(--grey-medium);
+}
+
+.dark-mode .mv-title {
+  color: var(--black);
+}
+
+.dark-mode .mv-mission,
+.dark-mode .mv-vision,
+.dark-mode .mv-motto {
+  background: var(--grey-light);
+  border-color: var(--grey-medium);
+  color: var(--black);
+}
+
+.dark-mode .mv-mission p,
+.dark-mode .mv-vision p,
+.dark-mode .mv-motto li {
+  color: var(--black);
+}
+
+.dark-mode .mv-motto h3,
+.dark-mode .mv-value h3 {
+  color: var(--black);
+}
+
+.dark-mode .mv-value {
+  background: var(--white);
+  border-color: var(--grey-medium);
+  color: var(--black);
+}
+
+.dark-mode .mv-value p {
+  color: var(--black);
+}
+
+.dark-mode .mv-back-home {
+  background: var(--black);
+  color: var(--white);
+}
+
+.dark-mode .mv-back-home:hover {
+  background: var(--grey-dark);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .mv-values-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mission-values {
+    padding: 4rem 1.5rem;
+  }
+  
+  .mv-header {
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .mv-title {
+    font-size: 2.25rem;
+  }
+  
+  .mv-heading {
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem 0;
+  }
+  
+  .mv-heading::after {
+    width: 60px;
+    height: 2px;
+  }
+  
+  .mv-mission,
+  .mv-vision,
+  .mv-motto {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .mv-mission p {
+    font-size: 1.125rem;
+  }
+  
+  .mv-vision p {
+    font-size: 1.25rem;
+  }
+  
+  .mv-values-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .mv-value {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-values {
+    padding: 3rem 1rem;
+  }
+  
+  .mv-header {
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mv-logo {
+    height: 80px;
+  }
+  
+  .mv-title {
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .mv-heading {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+  }
+  
+  .mv-heading::after {
+    width: 60px;
+    height: 2px;
+  }
+  
+  .mv-mission,
+  .mv-vision,
+  .mv-motto {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mv-mission p {
+    font-size: 1rem;
+  }
+  
+  .mv-vision p {
+    font-size: 1.125rem;
+  }
+  
+  .mv-motto h3 {
+    font-size: 1.375rem;
+  }
+  
+  .mv-motto li {
+    font-size: 1rem;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+  }
+  
+  .mv-values-grid {
+    gap: 1.5rem;
+  }
+  
+  .mv-value {
+    padding: 1.5rem;
+  }
+  
+  .mv-value h3 {
+    font-size: 1.125rem;
+  }
+  
+  .mv-value p {
+    font-size: 0.875rem;
+  }
+  
+  .mv-back-home {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.8rem;
+  }
+} 

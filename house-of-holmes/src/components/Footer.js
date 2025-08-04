@@ -1,40 +1,45 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const InstagramIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" style={{marginRight: '0.5em', verticalAlign: 'middle'}}>
-    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 186c-39.5 0-71.5-32-71.5-71.5s32-71.5 71.5-71.5 71.5 32 71.5 71.5-32 71.5-71.5 71.5zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.3-9.9-66.7-36.2-92.9S388.6 1.7 353.3 0C317.7-1.7 130.3-1.7 94.7 0 59.4 1.7 28 9.9 1.7 36.2S1.7 123.4 0 158.7C-1.7 194.3-1.7 381.7 0 417.3c1.7 35.3 9.9 66.7 36.2 92.9s57.6 34.5 92.9 36.2c35.6 1.7 223 1.7 258.6 0 35.3-1.7 66.7-9.9 92.9-36.2s34.5-57.6 36.2-92.9c1.7-35.6 1.7-223 0-258.6zM398.8 388c-7.8 19.6-22.9 34.7-42.5 42.5-29.4 11.7-99.2 9-132.3 9s-102.9 2.6-132.3-9c-19.6-7.8-34.7-22.9-42.5-42.5-11.7-29.4-9-99.2-9-132.3s-2.6-102.9 9-132.3c7.8-19.6 22.9-34.7 42.5-42.5C121.1 24.6 190.9 27.2 224 27.2s102.9-2.6 132.3 9c19.6 7.8 34.7 22.9 42.5 42.5 11.7 29.4 9 99.2 9 132.3s2.7 102.9-9 132.3z"/>
-  </svg>
-);
-
-const FacebookIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 320 512" fill="currentColor" aria-hidden="true" style={{marginRight: '0.5em', verticalAlign: 'middle'}}>
-    <path d="M279.14 288l14.22-92.66h-88.91V127.91c0-25.35 12.42-50.06 52.24-50.06H293V6.26S259.5 0 225.36 0c-73.22 0-121.09 44.38-121.09 124.72v70.62H22.89V288h81.38v224h100.2V288z"/>
-  </svg>
-);
-
-const LinkedInIcon = () => (
-  <svg width="22" height="22" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" style={{marginRight: '0.5em', verticalAlign: 'middle'}}>
-    <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.09 107.3 0 83.2 0 53.6A53.6 53.6 0 0 1 53.6 0a53.6 53.6 0 0 1 53.6 53.6c0 29.6-24.09 53.7-53.6 53.7zM447.8 448h-92.4V302.4c0-34.7-12.4-58.4-43.3-58.4-23.6 0-37.6 15.9-43.7 31.3-2.3 5.6-2.8 13.4-2.8 21.2V448h-92.4s1.2-242.1 0-267.1h92.4v37.9c12.3-19 34.3-46.1 83.5-46.1 60.9 0 106.7 39.8 106.7 125.4V448z"/>
-  </svg>
-);
-
 const Footer = () => {
   const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer>
+      <div className="footer-brand">{t('footer.brand')}</div>
+      
+      {/* Social Media Links */}
       <div className="footer-social">
-        <a href="https://www.instagram.com/hofh.houseofholmes/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <InstagramIcon /> Instagram
+        <a href="mailto:info@houseofholmes.com" className="social-link">
+          📧 {t('footer.email')}
         </a>
-        <a href="https://facebook.com/houseofholmes" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <FacebookIcon /> Facebook
+        <a href="tel:+1234567890" className="social-link">
+          📞 {t('footer.phone')}
         </a>
-        <a href="https://linkedin.com/company/houseofholmes" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <LinkedInIcon /> LinkedIn
+        <a href="https://www.instagram.com/hofh.houseofholmes/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          {t('contact.instagram')}
+        </a>
+        <a href="https://www.facebook.com/HofH.HouseofHolmes/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          {t('contact.facebook')}
+        </a>
+        <a href="https://www.linkedin.com/company/houseofholmes" target="_blank" rel="noopener noreferrer" className="social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          {t('contact.linkedin')}
         </a>
       </div>
-      <span className="footer-rights">{t('footer.rights')}</span>
+      
+      <div className="footer-rights">
+        © {currentYear} {t('footer.brand')}. {t('footer.rights')}
+      </div>
     </footer>
   );
 };

@@ -3,50 +3,96 @@
     "home": "Home",
     "services": "Servizi",
     "pricing": "Prezzi",
+    "missionValues": "Missione e Valori",
     "contact": "Contatto"
   },
-  "banner": "Benvenuto a House of Holmes - Interior Design di Lusso",
+  "banner": "Benvenuti a House of Holmes - Design d'Interni di Lusso",
   "header": {
     "title": "Casa di Holmes",
-    "subtitle": "Interni di lusso per la vita moderna"
+    "subtitle": "Sartoria di Lusso ed Eccellenza in Alta Moda"
+  },
+  "hero": {
+    "title": "Creare Eccellenza",
+    "tagline": "Dove la visione incontra la precisione in ogni punto",
+    "cta": "Esplora i Nostri Servizi"
   },
   "services": {
-    "title": "Cosa facciamo",
+    "title": "Cosa Facciamo",
     "service1": {
-      "title": "Sviluppo del Prodotto",
-      "desc": "Il nostro team tecnico può trasformare le tue idee in realtà con competenze di modellistica, gradazione e ingegneria. Tu lo pensi, noi lo creiamo.",
-      "aria": "Icona Sviluppo del Prodotto"
+      "title": "Sviluppo Prodotto",
+      "desc": "Il nostro team tecnico può trasformare le tue idee dal concetto alla realtà con competenze di modellistica, graduazione e ingegneria. Tu pensi, noi creiamo.",
+      "aria": "Icona Sviluppo Prodotto"
     },
     "service2": {
-      "title": "Realizzazione Campioni",
-      "desc": "Servizi di realizzazione campioni per abbigliamento sportivo, da sera, sartoriale, ecc. Gestiamo la pre-produzione e la sartoria su misura.",
-      "aria": "Icona Realizzazione Campioni"
+      "title": "Creazione Campioni",
+      "desc": "Servizi di creazione campioni per abbigliamento sportivo, atletico, serale, sartoria, ecc. Gestiamo dalla pre-produzione alla cucitura personalizzata.",
+      "aria": "Icona Creazione Campioni"
     },
     "service3": {
-      "title": "Progettazione Tecnica",
-      "desc": "Produciamo pacchetti di progettazione tecnica completi affinché il tuo prodotto rimanga coerente e di qualità a livello globale.",
-      "aria": "Icona Progettazione Tecnica"
+      "title": "Design Tecnico",
+      "desc": "Produciamo pacchetti di design tecnico completi per mantenere il tuo prodotto coerente e orientato alla qualità a livello globale.",
+      "aria": "Icona Design Tecnico"
     },
     "service4": {
       "title": "Produzione",
-      "desc": "Dai marchi affermati ai piccoli designer, offriamo produzione 100% Made in USA con rigorosi controlli di qualità.",
+      "desc": "Dai marchi affermati ai piccoli designer, forniamo produzione 100% Made in USA con rigorosi processi di controllo qualità.",
       "aria": "Icona Produzione"
     }
   },
-  "reviews": {
-    "title": "Recensioni dei clienti"
-  },
   "about": {
-    "title": "Chi siamo"
+    "title": "Su Casa di Holmes",
+    "content": "Casa di Holmes è un atelier di moda di primo livello che unisce artigianato senza tempo e design moderno. Le nostre collezioni riflettono il nostro impegno per l'eccellenza e i migliori dettagli, dando potere ai clienti con eleganza. Siamo orgogliosi del nostro impegno per la qualità e l'artigianato, assicurando che ogni pezzo che lascia il nostro atelier soddisfi i più alti standard di eccellenza. Il nostro team di artigiani e designer qualificati porta anni di esperienza e passione ad ogni progetto. Situati a Mesa, Arizona, serviamo clienti in tutto il paese che condividono la nostra visione per una moda eccezionale e un'attenzione impeccabile ai dettagli. Il nostro impegno per la produzione 100% Made in USA assicura sia il controllo qualità che il supporto all'artigianato locale."
+  },
+  "reviews": {
+    "title": "Testimonianze Clienti"
   },
   "consultation": {
-    "title": "Prenota una consulenza"
+    "title": "Prenota una Consulenza",
+    "name": "Nome Completo",
+    "email": "Indirizzo Email",
+    "phone": "Numero di Telefono",
+    "gender": "Genere",
+    "male": "Maschio",
+    "female": "Femmina",
+    "other": "Altro",
+    "message": "Parlaci del tuo progetto",
+    "submit": "Prenota Consulenza"
   },
   "contact": {
-    "title": "Contattaci"
+    "title": "Contattaci",
+    "address": "Indirizzo",
+    "addressValue": "1457 W Southern Ave, Unità #15, Mesa, AZ 85202",
+    "phone": "Telefono",
+    "email": "Email",
+    "connectWithUs": "Connettiti con Noi",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn"
   },
   "footer": {
-    "rights": "Tutti i diritti riservati. Casa di Holmes © 2024"
+    "brand": "Casa di Holmes",
+    "rights": "Tutti i diritti riservati. Fatto negli USA.",
+    "email": "Email",
+    "phone": "Telefono"
+  },
+  "missionValues": {
+    "title": "Missione e Valori",
+    "mission": "Missione",
+    "missionContent": "Rivoluzionare la produzione americana attraverso pratiche etiche, design innovativo e impegno incrollabile per l'artigianato di qualità.",
+    "vision": "Visione",
+    "visionContent": "Essere la forza leader nella produzione tessile domestica sostenibile mentre diamo potere a designer e marchi per creare prodotti eccezionali.",
+    "values": "I Nostri Valori",
+    "value1": "Eccellenza nell'Artigianato",
+    "value2": "Produzione Etica",
+    "value3": "Innovazione e Tecnologia",
+    "value4": "Impatto sulla Comunità",
+    "value5": "Sostenibilità",
+    "value6": "Partnership con i Clienti"
+  },
+  "pricing": {
+    "title": "Prezzi e Servizi",
+    "note": "Tutti i prezzi sono stime e possono variare in base alla complessità e ai requisiti del progetto.",
+    "rushFee": "Costo Urgenza: 25% aggiuntivo per servizi accelerati"
   },
   "language": "Lingua"
 }

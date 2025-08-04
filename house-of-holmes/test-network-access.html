@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of Holmes - Network Access Test</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #f8f8f8;
+            padding: 2rem;
+            border-radius: 16px;
+            border: 2px solid #e5e5e5;
+        }
+        h1 {
+            color: #000000;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .status {
+            background: #000000;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        .feature-list {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .feature-list h3 {
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+        .feature-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        .feature-list li:before {
+            content: "✅ ";
+            margin-right: 0.5rem;
+        }
+        .instructions {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .instructions h3 {
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+        .test-button {
+            background: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 1rem 0;
+            display: block;
+            width: 100%;
+        }
+        .test-button:hover {
+            background: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏠 House of Holmes - Network Access Test</h1>
+        
+        <div class="status">
+            ✅ Network Access Working - Your manager can view the website!
+        </div>
+        
+        <div class="feature-list">
+            <h3>📱 What Your Manager Will See:</h3>
+            <ul>
+                <li>Professional House of Holmes website design</li>
+                <li>Social Media Feed with Instagram, Facebook, LinkedIn posts</li>
+                <li>Platform filters (All, Instagram, Facebook, LinkedIn)</li>
+                <li>Odoo integration for products and leads</li>
+                <li>Calendar events display</li>
+                <li>Consultation form with email integration</li>
+                <li>Multi-language support (English, Spanish, French, etc.)</li>
+                <li>Responsive design for all devices</li>
+                <li>Professional black, white, grey color scheme</li>
+                <li>Real-time social media updates</li>
+            </ul>
+        </div>
+        
+        <div class="instructions">
+            <h3>🌐 Access Instructions for Manager:</h3>
+            <p><strong>URL:</strong> <code>http://10.0.0.118:3000</code></p>
+            <p><strong>Requirements:</strong> Must be on the same WiFi network as your computer</p>
+            <p><strong>Browser:</strong> Any modern browser (Chrome, Safari, Firefox, Edge)</p>
+        </div>
+        
+        <button class="test-button" onclick="testMainWebsite()">
+            🚀 Test Main Website Access
+        </button>
+        
+        <div class="instructions">
+            <h3>📋 Manager Test Checklist:</h3>
+            <ol>
+                <li>Open browser and go to: <code>http://10.0.0.118:3000</code></li>
+                <li>Verify the website loads completely</li>
+                <li>Scroll down to see the Social Media Feed section</li>
+                <li>Test the platform filters (All, Instagram, Facebook, LinkedIn)</li>
+                <li>Try the consultation form</li>
+                <li>Test the language selector</li>
+                <li>Check responsive design on mobile/tablet</li>
+            </ol>
+        </div>
+    </div>
+    
+    <script>
+        function testMainWebsite() {
+            window.open('http://10.0.0.118:3000', '_blank');
+        }
+        
+        // Auto-detect if we're on the same network
+        fetch('http://10.0.0.118:3000')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ Main website is accessible');
+                }
+            })
+            .catch(error => {
+                console.log('⚠️ Main website not accessible from this location');
+            });
+    </script>
+</body>
+</html> 

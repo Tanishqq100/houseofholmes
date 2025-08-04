@@ -3,12 +3,18 @@
     "home": "Home",
     "services": "Services",
     "pricing": "Pricing",
+    "missionValues": "Mission & Values",
     "contact": "Contact"
   },
   "banner": "Welcome to House of Holmes - Luxury Interior Design",
   "header": {
     "title": "House of Holmes",
-    "subtitle": "Luxury Interiors for Modern Living"
+    "subtitle": "Luxury Tailoring & Couture Excellence"
+  },
+  "hero": {
+    "title": "Crafting Excellence",
+    "tagline": "Where vision meets precision in every stitch",
+    "cta": "Explore Our Services"
   },
   "services": {
     "title": "What We Do",
@@ -33,23 +39,63 @@
       "aria": "Production Icon"
     }
   },
-  "reviews": {
-    "title": "Client Reviews"
-  },
   "about": {
-    "title": "About Us",
-    "p1": "House of Holmes is a premier fashion atelier blending timeless craftsmanship with modern design. Our collections reflect our commitment to excellence and the finest details, empowering clients with elegance.",
-    "p2": "We take pride in our dedication to quality and craftsmanship, ensuring that every piece that leaves our atelier meets the highest standards of excellence. Our team of skilled artisans and designers brings years of experience and passion to every project.",
-    "p3": "Located in Mesa, Arizona, we serve clients nationwide who share our vision for exceptional fashion and impeccable attention to detail. Our commitment to 100% Made in USA manufacturing ensures both quality control and support for local craftsmanship."
+    "title": "About House of Holmes",
+    "content": "House of Holmes is a premier fashion atelier blending timeless craftsmanship with modern design. Our collections reflect our commitment to excellence and the finest details, empowering clients with elegance. We take pride in our dedication to quality and craftsmanship, ensuring that every piece that leaves our atelier meets the highest standards of excellence. Our team of skilled artisans and designers brings years of experience and passion to every project. Located in Mesa, Arizona, we serve clients nationwide who share our vision for exceptional fashion and impeccable attention to detail. Our commitment to 100% Made in USA manufacturing ensures both quality control and support for local craftsmanship."
+  },
+  "reviews": {
+    "title": "Client Testimonials"
   },
   "consultation": {
-    "title": "Book a Consultation"
+    "title": "Book a Consultation",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "message": "Tell us about your project",
+    "submit": "Book Consultation"
   },
   "contact": {
-    "title": "Contact Us"
+    "title": "Contact Us",
+    "address": "Address",
+    "addressValue": "1457 W Southern Ave, Unit #15, Mesa, AZ 85202",
+    "phone": "Phone",
+    "email": "Email",
+    "connectWithUs": "Connect With Us",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn"
   },
   "footer": {
-    "rights": "All rights reserved. House of Holmes © 2024"
+    "brand": "House of Holmes",
+    "rights": "All rights reserved. Made in USA.",
+    "email": "Email",
+    "phone": "Phone"
   },
-  "language": "Language"
+  "missionValues": {
+    "title": "Mission & Values",
+    "mission": "Mission",
+    "missionContent": "To revolutionize American manufacturing through ethical practices, innovative design, and unwavering commitment to quality craftsmanship.",
+    "vision": "Vision",
+    "visionContent": "To be the leading force in sustainable, domestic textile production while empowering designers and brands to create exceptional products.",
+    "values": "Our Values",
+    "value1": "Excellence in Craftsmanship",
+    "value2": "Ethical Manufacturing",
+    "value3": "Innovation & Technology",
+    "value4": "Community Impact",
+    "value5": "Sustainability",
+    "value6": "Client Partnership"
+  },
+  "pricing": {
+    "title": "Pricing & Services",
+    "note": "All prices are estimates and may vary based on project complexity and requirements.",
+    "rushFee": "Rush Fee: Additional 25% for expedited services"
+  },
+  "socialFeed": {
+    "title": "Social Media Updates"
+  },
+  "darkMode": "DARK MODE"
 }

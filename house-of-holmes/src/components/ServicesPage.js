@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './ServicesPage.css';
 import { Link } from 'react-router-dom';
 
@@ -83,14 +84,17 @@ const services = [
 ];
 
 const ServicesPage = () => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState(null);
+  
   const handleToggle = (idx) => {
     setOpenIndex(openIndex === idx ? null : idx);
   };
+  
   return (
     <div className="services-page">
       <Link to="/" className="back-home-btn">&larr; Back to Home</Link>
-      <h1 className="services-title">Our Services</h1>
+      <h1 className="services-title">{t('nav.services')}</h1>
       {services.map((service, idx) => (
         <div className={`service-section-row ${idx % 2 === 0 ? 'row-normal' : 'row-reverse'}`} key={idx}>
           {service.image && (

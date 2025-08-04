@@ -3,12 +3,18 @@
     "home": "Inicio",
     "services": "Servicios",
     "pricing": "Precios",
+    "missionValues": "Misión y Valores",
     "contact": "Contacto"
   },
   "banner": "Bienvenido a House of Holmes - Diseño de Interiores de Lujo",
   "header": {
     "title": "Casa de Holmes",
-    "subtitle": "Interiores de lujo para la vida moderna"
+    "subtitle": "Sastrería de Lujo y Excelencia en Alta Costura"
+  },
+  "hero": {
+    "title": "Creando Excelencia",
+    "tagline": "Donde la visión se encuentra con la precisión en cada puntada",
+    "cta": "Explorar Nuestros Servicios"
   },
   "services": {
     "title": "Lo que hacemos",
@@ -33,20 +39,60 @@
       "aria": "Icono de Producción"
     }
   },
-  "reviews": {
-    "title": "Opiniones de clientes"
-  },
   "about": {
-    "title": "Sobre nosotros"
+    "title": "Sobre Casa de Holmes",
+    "content": "Casa de Holmes es un atelier de moda de primer nivel que combina la artesanía atemporal con el diseño moderno. Nuestras colecciones reflejan nuestro compromiso con la excelencia y los mejores detalles, empoderando a los clientes con elegancia. Nos enorgullece nuestra dedicación a la calidad y la artesanía, asegurando que cada pieza que sale de nuestro atelier cumple con los más altos estándares de excelencia. Nuestro equipo de artesanos y diseñadores habilidosos aporta años de experiencia y pasión a cada proyecto. Ubicados en Mesa, Arizona, servimos a clientes en todo el país que comparten nuestra visión de moda excepcional y atención impecable al detalle. Nuestro compromiso con la fabricación 100% Hecho en USA asegura tanto el control de calidad como el apoyo a la artesanía local."
+  },
+  "reviews": {
+    "title": "Testimonios de Clientes"
   },
   "consultation": {
-    "title": "Reservar una consulta"
+    "title": "Reservar una Consulta",
+    "name": "Nombre Completo",
+    "email": "Dirección de Email",
+    "phone": "Número de Teléfono",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro",
+    "message": "Cuéntanos sobre tu proyecto",
+    "submit": "Reservar Consulta"
   },
   "contact": {
-    "title": "Contáctanos"
+    "title": "Contáctanos",
+    "address": "Dirección",
+    "addressValue": "1457 W Southern Ave, Unidad #15, Mesa, AZ 85202",
+    "phone": "Teléfono",
+    "email": "Email",
+    "connectWithUs": "Conéctate Con Nosotros",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn"
   },
   "footer": {
-    "rights": "Todos los derechos reservados. Casa de Holmes © 2024"
+    "brand": "Casa de Holmes",
+    "rights": "Todos los derechos reservados. Hecho en USA.",
+    "email": "Email",
+    "phone": "Teléfono"
+  },
+  "missionValues": {
+    "title": "Misión y Valores",
+    "mission": "Misión",
+    "missionContent": "Revolucionar la fabricación estadounidense a través de prácticas éticas, diseño innovador y compromiso inquebrantable con la artesanía de calidad.",
+    "vision": "Visión",
+    "visionContent": "Ser la fuerza líder en producción textil doméstica sostenible mientras empoderamos a diseñadores y marcas para crear productos excepcionales.",
+    "values": "Nuestros Valores",
+    "value1": "Excelencia en Artesanía",
+    "value2": "Fabricación Ética",
+    "value3": "Innovación y Tecnología",
+    "value4": "Impacto Comunitario",
+    "value5": "Sostenibilidad",
+    "value6": "Asociación con Clientes"
+  },
+  "pricing": {
+    "title": "Precios y Servicios",
+    "note": "Todos los precios son estimaciones y pueden variar según la complejidad y requisitos del proyecto.",
+    "rushFee": "Cargo por Urgencia: 25% adicional para servicios expeditos"
   },
   "language": "Idioma"
 }
