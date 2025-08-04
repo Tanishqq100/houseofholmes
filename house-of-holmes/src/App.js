@@ -17,6 +17,7 @@ import MissionValues from './components/MissionValues';
 import OdooTest from './components/OdooTest';
 import Calendar from './components/Calendar';
 import SocialFeed from './components/SocialFeed';
+import TestingPanel from './components/TestingPanel';
 import OutlookIntegration from './components/OutlookIntegration';
 import './App.css';
 
