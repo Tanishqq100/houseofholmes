@@ -95,6 +95,7 @@ function MainSite() {
       <ConsultationForm />
       <Contact />
       <Footer />
+      <TestingPanel />
     </div>
   );
 }
